@@ -1,0 +1,9 @@
+{
+	"format_version": "1.21.40",
+	"wsp:mob_fletcher":{
+		"sound":"wood"
+	},
+	"wsp:mob_forge":{
+		"sound":"anvil"
+	}
+}
