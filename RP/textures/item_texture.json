@@ -1,0 +1,125 @@
+{
+	"resource_pack_name": "Mob Bows",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"wsp_soul":{
+			"textures":"textures/items/soul"
+		},
+		"wsp_soul_harvester":{
+			"textures":"textures/items/soul_harvester"
+		},
+		"wsp_stacked_bow":{
+			"textures":"textures/items/stacked_bow"
+		},
+
+		// test
+		"wsp_slimeball": {
+			"textures": "textures/items/rubber_sphere"
+		},
+
+
+		"wsp_blaze_bow": {
+			"textures": "textures/items/blaze_bow/blaze_bow"
+		},
+		"wsp_bogged_bow":{
+			"textures":"textures/items/bogged_bow/bogged_bow"
+		},
+		"wsp_breeze_bow":{
+			"textures":"textures/items/breeze_bow/breeze_bow"
+		},
+		"wsp_creaking_bow":{
+			"textures":"textures/items/creaking_bow/creaking_bow"
+		},
+		"wsp_creeper_bow":{
+			"textures":"textures/items/creeper_bow/creeper_bow"
+		},
+		"wsp_elder_guardian_bow":{
+			"textures":"textures/items/elder_guardian_bow/elder_guardian_bow"
+		},
+		"wsp_ender_dragon_bow":{
+			"textures":"textures/items/ender_dragon_bow/ender_dragon_bow"
+		},
+		"wsp_endermite_bow":{
+			"textures":"textures/items/endermite_bow/endermite_bow"
+		},
+		"wsp_evoker_bow":{
+			"textures":"textures/items/evoker_bow/evoker_bow"
+		},
+		"wsp_ghast_bow":{
+			"textures":"textures/items/ghast_bow/ghast_bow"
+		},
+		"wsp_guardian_bow":{
+			"textures":"textures/items/guardian_bow/guardian_bow"
+		},
+		"wsp_hoglin_bow":{
+			"textures":"textures/items/hoglin_bow/hoglin_bow"
+		},
+		"wsp_husk_bow":{
+			"textures":"textures/items/husk_bow/husk_bow"
+		},
+		"wsp_magma_bow":{
+			"textures":"textures/items/magma_bow/magma_bow"
+		},
+		"wsp_parched_bow":{
+			"textures":"textures/items/parched_bow/parched_bow"
+		},
+		"wsp_phantom_bow":{
+			"textures":"textures/items/phantom_bow/phantom_bow"
+		},
+		"wsp_piglin_brute_bow":{
+			"textures":"textures/items/piglin_brute_bow/piglin_brute_bow"
+		},
+		"wsp_pillager_bow":{
+			"textures":"textures/items/pillager_bow/pillager_bow"
+		},
+		"wsp_ravager_bow":{
+			"textures":"textures/items/ravager_bow/ravager_bow"
+		},
+		"wsp_shulker_bow":{
+			"textures":"textures/items/shulker_bow/shulker_bow"
+		},
+		"wsp_silverfish_bow":{
+			"textures":"textures/items/silverfish_bow/silverfish_bow"
+		},
+		"wsp_skeleton_bow":{
+			"textures":"textures/items/skeleton_bow/skeleton_bow"
+		},
+		"wsp_slime_bow":{
+			"textures":"textures/items/slime_bow/slime_bow"
+		},
+		"wsp_stray_bow":{
+			"textures":"textures/items/stray_bow/stray_bow"
+		},
+		"wsp_sulfur_bow":{
+			"textures":"textures/items/sulfur_bow/sulfur_bow"
+		},
+		"wsp_vex_bow":{
+			"textures":"textures/items/vex_bow/vex_bow"
+		},
+		"wsp_vindicator_bow":{
+			"textures":"textures/items/vindicator_bow/vindicator_bow"
+		},
+		"wsp_warden_bow":{
+			"textures":"textures/items/warden_bow/warden_bow"
+		},
+		"wsp_witch_bow":{
+			"textures":"textures/items/witch_bow/witch_bow"
+		},
+		"wsp_wither_bow":{
+			"textures":"textures/items/wither_bow/wither_bow"
+		},
+		"wsp_wither_skeleton_bow":{
+			"textures":"textures/items/wither_skeleton_bow/wither_skeleton_bow"
+		},
+		"wsp_zoglin_bow":{
+			"textures":"textures/items/zoglin_bow/zoglin_bow"
+		},
+		"wsp_zombie_bow":{
+			"textures":"textures/items/zombie_bow/zombie_bow"
+		},
+		"wsp_zombie_villager_bow":{
+			"textures":"textures/items/zombie_villager_bow/zombie_villager_bow"
+		}
+
+	}
+}

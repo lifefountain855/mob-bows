@@ -1,0 +1,22 @@
+{
+	"format_version": 3,
+	"metadata": {
+		"authors": [
+			"whispyDEV"
+		]
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": "1.26.3",
+		"uuid": "82f3ccf1-05da-4021-b253-483dde2258ac",
+		"version": "1.0.0"
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "f9f55712-273b-4470-bf98-d26e7d54e183",
+			"version": "1.0.0"
+		}
+	]
+}

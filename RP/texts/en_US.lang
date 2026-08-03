@@ -1,0 +1,113 @@
+pack.name=§d§lMob Bows RP§r
+pack.description=§oThis is a resource pack that adds bows to mobs. It is a work in progress, so please report any bugs you find.§r
+tile.wsp:mob_fletcher.name=Mob Fletcher
+tile.wsp:mob_forge.name=§8Mob Forge§r
+item.wsp:soul=§3Soul§r
+item.wsp:soul_harvester=§o§bSoul Harvester§r
+wsp:itemGroup.name.bow=§l§oMob Bows§r
+item.wsp:stacked_bow=§3Stack of Bows§r
+entity.wsp:slimeball.name= Slime Ball
+entity.wsp:silverfish.name= Silverfish
+
+
+
+item.wsp:blaze_bow=§vBlaze Bow§r
+item.wsp:bogged_bow=§qBogged Bow§r
+item.wsp:breeze_bow=§wBreeze Bow§r
+item.wsp:creaking_bow=Creaking Bow
+item.wsp:creeper_bow=§aCreeper Bow§r
+item.wsp:elder_guardian_bow=§sElder Guardian Bow§r
+item.wsp:ender_dragon_bow=§5Ender Dragon Bow§r
+item.wsp:endermite_bow=§uEndermite Bow§r
+item.wsp:evoker_bow=§7Evoker Bow§r
+item.wsp:ghast_bow=§oGhast Bow§r
+item.wsp:guardian_bow=§sGuardian Bow§r
+item.wsp:hoglin_bow=§hHoglin Bow§r
+item.wsp:husk_bow=§pHusk Bow§r
+item.wsp:magma_bow=§vMagma Cube Bow§r
+item.wsp:parched_bow=§pParched Bow§r
+item.wsp:phantom_bow=§9Phantom Bow§r
+item.wsp:piglin_brute_bow=§gPiglin Brute Bow§r
+item.wsp:pillager_bow=§mPillager Bow§r
+item.wsp:ravager_bow=§8Ravager Bow§r
+item.wsp:shulker_bow=§dShulker Bow§r
+item.wsp:silverfish_bow=§7Silverfish Bow§r
+item.wsp:skeleton_bow=§7Skeleton Bow§r
+item.wsp:slime_bow=§2Slime Bow§r
+item.wsp:stray_bow=§bStray Bow§r
+item.wsp:sulfur_bow=§eSulfur Cube Bow§r
+item.wsp:vex_bow=§7§lVex Bow§r
+item.wsp:vindicator_bow=Vindicator Bow§r
+item.wsp:warden_bow=§sWarden Bow§r
+item.wsp:witch_bow=§2Witch Bow§r
+item.wsp:wither_bow=§l§jWither Bow§r
+item.wsp:wither_skeleton_bow=§jWither Skeleton Bow§r
+item.wsp:zoglin_bow=Zoglin Bow§r
+item.wsp:zombie_bow=§qZombie Bow§r
+item.wsp:zombie_villager_bow=§qZombie Villager Bow§r
+
+
+## UI Elements
+wsp.repair.title.primary=Mob Forge - Select Bow
+wsp.repair.body.multi_material=Select a damaged bow to repair. Requires §3Souls§r or items:
+wsp.word.item.slot=Slot
+
+
+commands.wsp.repair.no_damaged_tools=§cYou don't have any damaged bows in your inventory!§r
+commands.wsp.repair.missing_material=§cYou are missing the required item:
+
+
+## Chat System Feedback
+commands.wsp.repair.missing_either_material=§cYou are missing the required items. You need either
+commands.wsp.repair.success=§aBow successfully repaired!§r
+
+
+
+## Instruction Book
+book.filler=\n
+
+book.chapter1=\n\n\n\n\n\n\n           §l§uIntro:§r
+
+book.page2=First thing you'll need is a §o§bSoul Harvester§r.\nThis will allow you to collect §3Souls§r from the mobs you kill with it.\n\nTo make each bow, you will need 2 §3Souls§r, and more to make repairs.\n\nRecipe:\n  1 Bone\n  1 Iron Sword\n  1 Phantom Membrane
+book.page3=You will then need a Mob Fletcher.\n\nIt allows you to craft all the different mob bows with §3Souls§r and other ingredients.\n\n\n\nRecipe:\n  4 Planks\n  2 Iron Ingots\n  1 Fletching Table
+book.page4=You will also need a §8Mob Forge§r.\n\nIt allows you to repair your bows with §3Souls§r and other materials.\n\nEach item repairs 20% of the bow's durability.\n\nRecipe:\n  4 Cobblestone\n  2 Iron Ingots\n  1 Furnace
+
+
+book.chapter2=\n\n\n\n\n\n\n           §l§uItems:§r
+
+book.page6=      §l§3Stack of Bows§r\n\nActs as a bundle, allowing multiple bow items into a single inventory slot to save space.\n\n\n\nRecipe:\n  6 Leather\n  2 String
+
+book.bow.blaze=       §l§vBlaze Bow§r\n\nEffect(s):\n  Explodes like a fireball for burning damage. \n\n\n\n\nRecipe: (2 §3Souls§r also)\n  3 Blaze Rods\n  2 String
+book.bow.bogged=       §l§qBogged Bow§r\n\nEffect(s):\n  Slowness + Poison. \n\n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  3 Brown Mushroom\n  2 Bamboo
+book.bow.breeze=      §l§wBreeze Bow§r\n\nEffect(s):\n  Launch enemies into the air with high vertical knockback. \n\n\n\n\nRecipe: (2 §3Souls§r also)\n  3 Breeze Rod\n  2 String
+book.bow.creaking=      §lCreaking Bow§r\n\nEffect(s):\n  Blindness and freezes targets in place for 5 seconds. \n\n\n\n\nRecipe: (2 §3Souls§r also)\n  4 Pale Oak Logs\n  1 String
+book.bow.creeper=      §l§aCreeper Bow§r\n\nEffect(s):\n  Exploding arrow like TNT. \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  4 Gunpowder\n  1 String
+book.bow.elder_guardian= §l§sElder Guardian Bow§r\n\nEffect(s):\n  Mining Fatigue III + Instant Weakness. \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  2 Prismarine Crystals\n  1 Sponge\n  2 String
+book.bow.ender_dragon= §l§5Ender Dragon Bow§r\n\nEffect(s):\n  Explodes like a Dragon Fireball for area damage. \n\n\n\n\nRecipe: (2 §3Souls§r also)\n  2 End Stone\n  1 Dragon Breath\n  2 String
+book.bow.endermite=     §l§uEndermite Bow§r\n\nEffect(s):\n  Teleports target randomly. \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  3 Chorus Fruit\n  2 String
+book.bow.evoker=       §l§7Evoker Bow§r\n\nEffect(s):\n  Spawns Evoker Fangs in circle. \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  1 Totem of Undying\n  2 String
+book.bow.ghast=        §l§oGhast Bow§r\n\nEffect(s):\n  Exploding blast with fire like a Ghast fireball. \n\n\n\n\nRecipe: (2 §3Souls§r also)\n  3 Ghast Tear\n  2 String
+book.bow.guardian=     §l§sGuardian Bow§r\n\nEffect(s):\n  Laser arrow that bypasses armor and does 3-5 hearts of damage. \n\n\n\nRecipe: (2 §3Souls§r also)\n  4 Prismarine Shard\n  1 String
+book.bow.hoglin=       §l§hHoglin Bow§r\n\nEffect(s):\n  High horizontal knockback. \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  3 Leather\n  2 Raw Porkchop
+book.bow.husk=        §l§pHusk Bow§r\n\nEffect(s):\n  PvP: Inflicts Hunger for 2 minutes.\n  PvE: Wither decay for 20 seconds. \n\n\n\nRecipe: (2 §3Souls§r also)\n  3 Rotten Flesh\n  2 Sand
+book.bow.magma=   §l§vMagma Cube Bow§r\n\nEffect(s):\n  Creates a line of fire below arrow. \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  4 Magma Cream\n  1 String
+book.bow.parched=      §l§pParched Bow§r\n\nEffect(s):\n  Slowness IV for 10 seconds. \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  3 Dried Kelp\n  2 String
+book.bow.phantom=      §l§9Phantom Bow§r\n\nEffect(s):\n  Zero-gravity instant hot for long range sniper accuracy. \n\n\n\n\nRecipe: (2 §3Souls§r also)\n  3 Phantom Membrane\n  2 String
+book.bow.piglin_brute=   §l§gPiglin Brute Bow§r\n\nEffect(s):\n  Does 6 additional hearts of damage. \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  3 Gold Ingot\n  2 Netherite Scrap
+book.bow.pillager=      §l§mPillager Bow§r\n\nEffect(s):\n  Quick charge shots allowing for rapid-fire. \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  3 Iron Ingots\n  2 String
+book.bow.ravager=      §l§8Ravager Bow§r\n\nEffect(s):\n  Breaks shields instantly. \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  4 Saddle\n  1 Iron Block
+book.bow.shulker=       §l§dShulker Bow§r\n\nEffect(s):\n  Levitation for 10 seconds.  \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  2 Shulker Shell\n  3 String
+book.bow.silverfish=    §l§7Silverfish Bow§r\n\nEffect(s):\n  Summons a allied Silverfish. \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  4 Infested Stone\n  1 String
+book.bow.skeleton=      §l§7Skeleton Bow§r\n\nEffect(s):\n  Increased critical hit chance. \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  4 Bone\n  1 String
+book.bow.slime=        §l§2Slime Bow§r\n\nEffect(s):\n  Wall-bouncing slime ball for trick shots. \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  4 Slime Ball\n  1 String
+book.bow.stray=        §l§bStray Bow§r\n\nEffect(s):\n  Freezes targets in place for 30 seconds. \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  3 Packed Ice\n  2 Bone
+book.bow.sulfur=  §l§eSulfur Cube Bow§r\n\nEffect(s):\n  Lingering Potion effect of poison. \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  4 Gunpowder\n  1 Potent Sulfur
+book.bow.vex=         §l§7§lVex Bow§r\n\nEffect(s):\n  Straight attack that penetrates solid blocks and walls. \n\n\n\n\nRecipe: (2 §3Souls§r also)\n  3 Iron Sword\n  2 String
+book.bow.vindicator=    §lVindicator Bow§r\n\nEffect(s):\n  Instant kills targets under 25% health. \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  3 Emerald\n  2 Iron Axe
+book.bow.warden=       §l§sWarden Bow§r\n\nEffect(s):\n  Warden sonic boom shockwave. \n\n\n\n\n\nRecipe: (2 §3Souls§r also)\n  3 Echo Shard\n  2 Sculk Block
+book.bow.witch=        §l§2Witch Bow§r\n\nEffect(s):\n  Random negative potion effect (slowness, poison, weakness, instant harming) for 15 seconds. \n\n\nRecipe: (2 §3Souls§r also)\n  3 Redstone\n  2 Glass Bottle
+book.bow.wither=       §l§l§jWither Bow§r\n\nEffect(s):\n  Wither decay II for 10 seconds and explosion, every 4th explosion is large. \n\n\n\nRecipe: (2 §3Souls§r also)\n  3 Wither Rose\n  2 String
+book.bow.wither_skeleton= §l§jWither Skeleton Bow§r\n\nEffect(s):\n  Wither decay I for 10 seconds with burning for 25 seconds. \n\n\n\n\nRecipe: (2 §3Souls§r also)\n  3 Coal\n  2 Wither Skeleton Skull
+book.bow.zoglin=       §lZoglin Bow§r\n\nEffect(s):\n  Speed and Strength player buff for 20 seconds upon a successful hit (amplifier based on distance to target). \n\nRecipe: (2 §3Souls§r also)\n  4 Rotten Flesh\n  1 Gold Block
+book.bow.zombie=       §l§qZombie Bow§r\n\nEffect(s):\n  PvP: Blinds and nauseates players for 20 seconds.\n  PvE: Poison for 10 seconds. \n\n\nRecipe: (2 §3Souls§r also)\n  4 Rotten Flesh\n  1 String
+book.bow.zombie_villager= §l§qZombie Villager Bow§r\n\nEffect(s):\n  Weakness for 50 seconds, and instantly triggers conversion to Villager if hits Zombie Villager. \n\n\nRecipe: (2 §3Souls§r also)\n  2 Rotten Flesh\n  2 Golden Apple\n  1 String

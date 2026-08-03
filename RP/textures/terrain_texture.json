@@ -1,0 +1,14 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "Mob Bows",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"wsp:mob_fletcher":{
+			"textures": "textures/blocks/mob_fletcher"
+		},
+		"wsp:mob_forge":{
+			"textures": "textures/blocks/mob_forge"
+		}
+	}
+}

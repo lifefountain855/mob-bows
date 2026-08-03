@@ -1,0 +1,38 @@
+{
+	"format_version": "1.21.110",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mob_fletcher",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [6.75, 0, -6.75],
+					"cubes": [
+						{"origin": [-8.25, 0, -7.75], "size": [16, 12, 16], "uv": [0, 0]},
+						{"origin": [4.75, 12, -7.75], "size": [3, 4, 3], "uv": [0, 28]},
+						{"origin": [-8.25, 12, -7.75], "size": [3, 4, 3], "uv": [12, 28]},
+						{"origin": [-8.25, 12, 5.25], "size": [3, 4, 3], "uv": [24, 28]},
+						{"origin": [4.75, 12, 5.25], "size": [3, 4, 3], "uv": [0, 35]}
+					]
+				}
+			],
+			"item_display_transforms": {
+				"gui": {
+					"rotation": [31, -41, 0],
+					"translation": [0, 0, 0],
+					"scale": [0.66, 0.66, 0.66],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0],
+					"fit_to_frame": false
+				}
+			}
+		}
+	]
+}

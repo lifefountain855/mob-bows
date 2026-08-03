@@ -1,0 +1,12 @@
+[
+    {
+        "atlas_tile": "wsp:mob_fletcher",
+        "flipbook_texture": "textures/blocks/mob_fletcher",
+        "ticks_per_frame": 10
+    },
+    {
+        "atlas_tile": "wsp:mob_forge",
+        "flipbook_texture": "textures/blocks/mob_forge",
+        "ticks_per_frame": 10
+    }
+]

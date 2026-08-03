@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "wsp:slimeball",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/items/slimeball" },
+      "geometry": { "default": "geometry.toss_lab.projectile_sprite" },
+      "render_controllers": ["controller.render.toss_lab_projectile"],
+      "animations": { "flying": "animation.toss_lab.billboard" },
+      "scripts": { "animate": ["flying"] }
+    }
+  }
+}
