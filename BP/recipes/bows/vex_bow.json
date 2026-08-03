@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:vex_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "&I", 
+            "$$I",
+            "&I"
+        ],
+        "key": {
+            "I": "minecraft:iron_sword",
+
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:vex_bow"
+    }
+}

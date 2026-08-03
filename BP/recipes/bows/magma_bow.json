@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:magma_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "MM", 
+            "&$$",
+            "MM"
+        ],
+        "key": {
+            "M": "minecraft:magma_cream",
+
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:magma_bow"
+    }
+}

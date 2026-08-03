@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:zoglin_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "FF", 
+            "$$G",
+            "FF"
+        ],
+        "key": {
+            "F": "minecraft:rotten_flesh",
+            "G": "minecraft:gold_block",
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:zoglin_bow"
+    }
+}

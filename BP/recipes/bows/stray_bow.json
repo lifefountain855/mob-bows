@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:stray_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "BP", 
+            "$$P",
+            "BP"
+        ],
+        "key": {
+            "B": "minecraft:bone",
+            "P": "minecraft:packed_ice",
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:stray_bow"
+    }
+}

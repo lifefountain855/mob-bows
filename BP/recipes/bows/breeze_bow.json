@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:breeze_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "&B", 
+            "$$B",
+            "&B"
+        ],
+        "key": {
+            "B": "minecraft:breeze_rod",
+
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:breeze_bow"
+    }
+}

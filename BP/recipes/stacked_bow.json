@@ -1,0 +1,33 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:stacked_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "& &", 
+            "LLL",
+            "LLL"
+        ],
+        "key": {
+            "L": "minecraft:leather",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:soul_harvester"
+            },
+            {
+                "item": "wsp:soul"
+            },
+            {
+                "item": "wsp:mob_forge"
+            },
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:stacked_bow"
+    }
+}

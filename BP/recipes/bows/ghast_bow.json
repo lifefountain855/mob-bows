@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:ghast_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "&G", 
+            "$$G",
+            "&G"
+        ],
+        "key": {
+            "G": "minecraft:ghast_tear",
+
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:ghast_bow"
+    }
+}

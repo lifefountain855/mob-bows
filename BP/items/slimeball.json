@@ -1,0 +1,38 @@
+{
+  "format_version": "1.21.3",
+  "minecraft:item": {
+    "description": {
+      "identifier": "wsp:slimeball",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": "wsp_slimeball",
+      "minecraft:max_stack_size": 64,
+      "minecraft:use_modifiers": {
+        "use_duration": 3.0,
+        "movement_modifier": 1.0
+      },
+      "minecraft:shooter": {
+            "ammunition": [
+                {
+                    "item": "wsp:slimeball",
+                    "use_offhand": true,
+                    "search_inventory": true,
+                    "use_in_creative": true
+                }
+            ],
+            "max_draw_duration": 1.2,
+            "scale_power_by_draw_duration": true
+        },
+        "minecraft:projectile": {
+            "minimum_critical_power": 1.25,
+            "projectile_entity": "wsp:slimeball"
+        },
+      "minecraft:display_name": {
+        "value": "Rubber Sphere"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:elder_guardian_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "&C", 
+            "$$S",
+            "&C"
+        ],
+        "key": {
+            "S": "minecraft:sponge",
+            "C": "minecraft:prismarine_crystals",
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:elder_guardian_bow"
+    }
+}

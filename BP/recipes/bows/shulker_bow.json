@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:shulker_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "&S", 
+            "&$$",
+            "&S"
+        ],
+        "key": {
+            "S": "minecraft:shulker_shell",
+
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:shulker_bow"
+    }
+}

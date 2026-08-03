@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:hoglin_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "PL", 
+            "$$L",
+            "PL"
+        ],
+        "key": {
+            "L": "minecraft:leather",
+            "P": "minecraft:porkchop",
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:hoglin_bow"
+    }
+}

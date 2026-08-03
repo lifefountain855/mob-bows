@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:creeper_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "GG", 
+            "&$$",
+            "GG"
+        ],
+        "key": {
+            "G": "minecraft:gunpowder",
+
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:creeper_bow"
+    }
+}

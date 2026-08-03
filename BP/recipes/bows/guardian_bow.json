@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:guardian_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "PP", 
+            "&$$",
+            "PP"
+        ],
+        "key": {
+            "P": "minecraft:prismarine_shard",
+
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:guardian_bow"
+    }
+}

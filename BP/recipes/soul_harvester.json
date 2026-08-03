@@ -1,0 +1,31 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:soul_harvester"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "P", 
+            "I",
+            "B"
+        ],
+        "key": {
+            "P": "minecraft:phantom_membrane",
+            "I": "minecraft:iron_sword",
+            "B": "minecraft:bone"
+        },
+        "unlock": [
+            {
+                "item": "wsp:blaze_bow"
+            },
+            {
+                "item": "wsp:mob_forge"
+            },
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:soul_harvester"
+    }
+}

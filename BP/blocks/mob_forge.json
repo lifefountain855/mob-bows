@@ -1,0 +1,61 @@
+{
+    "format_version": "1.26.30",
+    "minecraft:block": {
+        "description": {
+            "identifier": "wsp:mob_forge",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:map_color": "#5a654a",
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -5
+                ],
+                "size": [
+                    16,
+                    13,
+                    10
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -5
+                ],
+                "size": [
+                    16,
+                    13,
+                    10
+                ]
+            },
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "obstruct_rain" // blocks rain but does not accumulate snow
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "minecraft:geometry": "geometry.mob_forge",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "wsp:mob_forge",
+                    "render_method": "alpha_test_to_opaque" // Disable backface culling and allow transparency
+                }
+            },
+            // "minecraft:crafting_table": {
+            //     "table_name": "tile.wsp:mob_forge.name",
+            //     "crafting_tags": [
+            //         "crafting_table",
+            //         "wsp:mob_forge"
+            //     ]
+            // },
+            "minecraft:display_name": "tile.wsp:mob_forge.name"//,
+            // "wsp:repair_tracker":{}
+            // "wsp:open_repair_ui":{}
+        }
+    }
+}

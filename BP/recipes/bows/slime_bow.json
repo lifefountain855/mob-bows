@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:slime_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "SS", 
+            "&$$",
+            "SS"
+        ],
+        "key": {
+            "S": "minecraft:slime_ball",
+
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:slime_bow"
+    }
+}
