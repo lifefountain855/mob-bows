@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:wither_skeleton_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "SC", 
+            "$$C",
+            "SC"
+        ],
+        "key": {
+            "C": "minecraft:coal",
+            "S": "minecraft:wither_skeleton_skull",
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:wither_skeleton_bow"
+    }
+}

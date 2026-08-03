@@ -1,0 +1,25 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:mob_forge"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            " P ", 
+            "IFI",
+            "PPP"
+        ],
+        "key": {
+            "F": "minecraft:furnace",
+            "P": "minecraft:cobblestone",
+            "I": "minecraft:iron_ingot"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:furnace"
+            }
+        ],
+        "result": "wsp:mob_forge"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:evoker_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "&$", 
+            "& T",
+            "&$"
+        ],
+        "key": {
+            "T": "minecraft:totem_of_undying",
+
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:evoker_bow"
+    }
+}

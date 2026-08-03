@@ -1,0 +1,68 @@
+{
+    "format_version": "1.26.30",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wsp:stacked_bow",
+            "menu_category": {
+                "category": "equipment",
+                "group": "wsp:itemGroup.name.bow"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:glint": false,
+            "minecraft:storage_item": {
+				"allow_nested_storage_items": true,
+				"max_slots": 64,
+                "allowed_items": [
+                    "wsp:blaze_bow",
+                    "wsp:bogged_bow",
+                    "wsp:breeze_bow",
+                    "wsp:creaking_bow",
+                    "wsp:creeper_bow",
+                    "wsp:elder_guardian_bow",
+                    "wsp:ender_dragon_bow",
+                    "wsp:endermite_bow",
+                    "wsp:evoker_bow",
+                    "wsp:ghast_bow",
+                    "wsp:guardian_bow",
+                    "wsp:hoglin_bow",
+                    "wsp:husk_bow",
+                    "wsp:magma_bow",
+                    "wsp:parched_bow",
+                    "wsp:phantom_bow",
+                    "wsp:piglin_brute_bow",
+                    "wsp:pillager_bow",
+                    "wsp:ravager_bow",
+                    "wsp:shulker_bow",
+                    "wsp:silverfish_bow",
+                    "wsp:skeleton_bow",
+                    "wsp:slime_bow",
+                    "wsp:stray_bow",
+                    "wsp:sulfur_bow",
+                    "wsp:vex_bow",
+                    "wsp:vindicator_bow",
+                    "wsp:warden_bow",
+                    "wsp:witch_bow",
+                    "wsp:wither_bow",
+                    "wsp:wither_skeleton_bow",
+                    "wsp:zoglin_bow",
+                    "wsp:zombie_bow",
+                    "wsp:zombie_villager_bow",
+                    "minecraft:arrow"
+                ]
+			},
+			"minecraft:storage_weight_limit": {
+				"max_weight_limit": 64
+			},
+			"minecraft:storage_weight_modifier": {
+				"weight_in_storage_item": 4
+			},
+			"minecraft:bundle_interaction": {
+				"num_viewable_slots": 22
+			},
+            "minecraft:icon": "wsp_stacked_bow"
+        }
+    }
+}

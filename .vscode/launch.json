@@ -1,0 +1,15 @@
+{
+  "version": "0.3.0",
+  "configurations": [
+    {
+      "type": "minecraft-js",
+      "request": "attach",
+      "name": "Debug with Minecraft",
+      "mode": "connect",
+      "preLaunchTask": "build",
+      "targetModuleUuid": "c13c8325-8e14-4e01-8d8a-f0ab66d5bd24",
+      "localRoot": "C:/Users/kevgu/AppData/Roaming/Minecraft Bedrock/Users/Shared/games/com.mojang/development_behavior_packs/Mob Bows BP/",
+      "port": 19144
+   }
+  ]
+}

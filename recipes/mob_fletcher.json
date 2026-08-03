@@ -1,0 +1,25 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:mob_fletcher"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            " P ", 
+            "IFI",
+            "PPP"
+        ],
+        "key": {
+            "F": "minecraft:fletching_table",
+            "P": "minecraft:planks",
+            "I": "minecraft:iron_ingot"
+        },
+        "unlock": [
+            {
+                "item":"fletching_table"
+            }
+        ],
+        "result": "wsp:mob_fletcher"
+    }
+}

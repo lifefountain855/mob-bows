@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:pillager_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "&I", 
+            "$$I",
+            "&I"
+        ],
+        "key": {
+            "I": "minecraft:iron_ingot",
+
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:pillager_bow"
+    }
+}

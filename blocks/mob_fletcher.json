@@ -1,0 +1,59 @@
+{
+    "format_version": "1.26.30",
+    "minecraft:block": {
+        "description": {
+            "identifier": "wsp:mob_fletcher",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:map_color": "#657366",
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    12,
+                    16
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    12,
+                    16
+                ]
+            },
+            "minecraft:precipitation_interactions": {
+                "precipitation_behavior": "obstruct_rain" // blocks rain but does not accumulate snow
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "minecraft:geometry": "geometry.mob_fletcher",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "wsp:mob_fletcher",
+                    "render_method": "alpha_test_to_opaque" // Disable backface culling and allow transparency
+                }
+            },
+            "minecraft:display_name": "tile.wsp:mob_fletcher.name",
+            "minecraft:crafting_table": {
+                "table_name": "tile.wsp:mob_fletcher.name",
+                "crafting_tags": [
+                    // "crafting_table",
+                    "wsp:mob_fletcher"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:blaze_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "SB ", 
+            "LLB",
+            "SB "
+        ],
+        "key": {
+            "S": "minecraft:string",
+            "B": "minecraft:blaze_rod",
+            "L": "wsp:soul"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:blaze_bow"
+    }
+}

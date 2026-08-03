@@ -1,0 +1,43 @@
+{
+	"format_version": 3,
+	"metadata": {
+		"authors": [
+			"whispyDEV"
+		]
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": "1.26.3",
+		"uuid": "42002659-c1b0-4592-8654-c174c33bacec",
+		"version": "1.0.0"
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "d2162de2-7dd1-4fc1-84b2-df23001e570e",
+			"version": "1.0.0"
+		},
+		{
+			"uuid": "c13c8325-8e14-4e01-8d8a-f0ab66d5bd24",
+			"version": "1.0.0",
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/index.js"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "82f3ccf1-05da-4021-b253-483dde2258ac",
+			"version": "1.0.0"
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.8.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.1.0"
+		}
+	]
+}

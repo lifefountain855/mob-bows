@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:skeleton_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "BB", 
+            "&$$",
+            "BB"
+        ],
+        "key": {
+            "B": "minecraft:bone",
+
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:skeleton_bow"
+    }
+}

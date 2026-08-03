@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:ender_dragon_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "&E", 
+            "B$$",
+            "&E"
+        ],
+        "key": {
+            "B": "minecraft:dragon_breath",
+            "E": "minecraft:end_stone",
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:ender_dragon_bow"
+    }
+}

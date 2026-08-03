@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:zombie_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "FF", 
+            "&$$",
+            "FF"
+        ],
+        "key": {
+            "F": "minecraft:rotten_flesh",
+
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:zombie_bow"
+    }
+}

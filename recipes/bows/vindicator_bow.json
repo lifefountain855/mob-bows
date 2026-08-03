@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:vindicator_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "IE", 
+            "$$E",
+            "IE"
+        ],
+        "key": {
+            "I": "minecraft:iron_axe",
+            "E": "minecraft:emerald",
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:vindicator_bow"
+    }
+}

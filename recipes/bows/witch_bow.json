@@ -1,0 +1,27 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "wsp:witch_bow"
+        },
+        "tags": ["wsp:mob_fletcher"],
+        "pattern": [
+            "GR", 
+            "$$R",
+            "GR"
+        ],
+        "key": {
+            "G": "minecraft:glass_bottle",
+            "R": "minecraft:redstone",
+
+            "$": "wsp:soul",
+            "&": "minecraft:string"
+        },
+        "unlock": [
+            {
+                "item": "wsp:mob_fletcher"
+            }
+        ],
+        "result": "wsp:witch_bow"
+    }
+}
