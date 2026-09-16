@@ -25,8 +25,7 @@
                     {
                         "item": "minecraft:arrow",
                         "use_offhand": true,
-                        "search_inventory": true,
-                        "use_in_creative": true
+                        "search_inventory": true
                     }
                 ],
                 "max_draw_duration": 1.2,
@@ -37,10 +36,7 @@
                 "projectile_entity": "minecraft:arrow"
             },
             "minecraft:use_modifiers": {
-                // "emit_vibrations": true,
                 "movement_modifier": 0.2,
-                // "start_sound": "hit",
-                // "start_using": "always",
                 "use_duration": 100.0
             },
             "minecraft:icon": "wsp_blaze_bow"
