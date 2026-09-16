@@ -8,8 +8,9 @@
 	"header": {
 		"name": "pack.name",
 		"description": "pack.description",
-		"min_engine_version": "1.26.3",
+		"min_engine_version": "1.26.51",
 		"uuid": "82f3ccf1-05da-4021-b253-483dde2258ac",
+		"lock_template_options":true,
 		"version": "1.0.0"
 	},
 	"modules": [
